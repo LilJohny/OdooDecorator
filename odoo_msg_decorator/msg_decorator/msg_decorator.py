@@ -1,10 +1,13 @@
 from odoo_msg_decorator.msg_decorator.bot import create_bot
+from odoo_msg_decorator.msg_decorator.constants import NUMBER_OF_USERS_TO_WAIT_FOR
 from odoo_msg_decorator.msg_decorator.send_message import send_message
 
 
-def msg_decorator(f, *args):
-    def wrapper(*args, **kwargs):
-        bot, ids = create_bot(1)
+
+
+def msg_decorator(f):
+    def wrapper(*args):
+        bot, ids = create_bot(NUMBER_OF_USERS_TO_WAIT_FOR)
         bot.polling()
         try:
             result = f(*args)
