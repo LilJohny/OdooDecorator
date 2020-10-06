@@ -6,4 +6,5 @@
 - When bot has needed number of users, it sends result of function to all users who send him \start command.
 - NUMBER_OF_USERS_TO_WAIT_FOR in constants module sets number of users to wait for
 - Implemented second order decorator, i.e decorator, that decorates other decorator
-- Decorated api.constraints decorator with telegram_msg decorator 
+- Decorated api.constraints decorator with telegram_msg decorator
+- All tokens should be hidden, but I left telegram token in constants module for testing purposes 
