@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_odoo_msg_decorator_odoo_msg_decorator,odoo_msg_decorator.odoo_msg_decorator,model_odoo_msg_decorator_odoo_msg_decorator,base.group_user,1,1,1,1
