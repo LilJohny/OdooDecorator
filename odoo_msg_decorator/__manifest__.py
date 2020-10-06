@@ -1,6 +1,6 @@
 {
-    'name': "Notifications decorator for api.constraints decorator ",
-    'summary': "Implements notifications  for decorated functions with second-order decorator",
+    'name': "Notifications msg_decorator for api.constraints msg_decorator ",
+    'summary': "Implements notifications  for decorated functions with second-order msg_decorator",
     'description': """Implements adding notifications to all functions decorated with @api.constraints""",
     'author': "Denys Ivanenko",
     'license': "AGPL-3",
